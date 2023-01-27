@@ -18,11 +18,7 @@ Example:
 3. Input: s = "(]{)", Output: false
 4. Input: s = "[]())", Output: false
 
-### Part 2. (20 points)
-
-A* search
-
-### Part 3. (30 points)
+### Part 2. (30 points)
 
 Your goal in this part will be to build an AI that can play Minesweeper.
 
@@ -96,7 +92,7 @@ In the MinesweeperAI class, complete the implementations of add_knowledge, make_
 * When you run your AI (as by clicking “AI Move”), note that it will not always win! There will be some cases where the AI must guess, because it lacks sufficient information to make a safe move. This is to be expected. runner.py will print whether the AI is making a move it believes to be safe or whether it is making a random move.
 
 
-### Part 4. (1 point) Do not complete until you are mostly finsihed with the assignment.
+### Part 3. (1 point) Do not complete until you are mostly finsihed with the assignment.
 
 Add a text file to the HW1 folder called “feedback.txt” and answer the following:
 
