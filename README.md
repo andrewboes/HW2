@@ -1,4 +1,4 @@
-## HW2 Due February 3rd, 2023
+## HW2 Due February 10th, 2023
 ### Part 0. (1 point) Complete this before changing any files.
 
 1. Download a zip of the HW2 repository. (https://github.com/andrewboes/HW2)
