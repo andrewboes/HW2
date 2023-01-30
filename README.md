@@ -18,7 +18,7 @@ Example:
 3. Input: s = "(]{)", Output: false
 4. Input: s = "[]())", Output: false
 
-### Part 2. (30 points)
+### Part 2. (60 points)
 
 Your goal in this part will be to build an AI that can play Minesweeper.
 
