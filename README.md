@@ -1,9 +1,9 @@
-## HW2 Due February 3rd, 2023
-### Part 0. (1 point) Complete this before changing any files.
+## HW2 Due February 10th, 2023
+### Part 0. (2 point) Complete this before changing any files.
 
-1. Create a branch off of your Artificial-Inteligence-Spring-2023 repository on github called “HW2”, do all of your work for this homework in the HW2 branch.
-2. Download a zip of the HW2 repository. (https://github.com/andrewboes/HW2)
-3. Upload it to a folder called HW2 in your repository.
+1. Download a zip of the HW2 repository. (https://github.com/andrewboes/HW2)
+2. Upload it to a folder called HW2 in your Artificial-Inteligence-Spring-2023 repository (don't branch first).
+3. Create a branch off of your Artificial-Inteligence-Spring-2023 repository on github called “HW2”, do all of your work for this homework in the HW2 branch.
 
 ### Part 1. (10 points)
 
@@ -18,7 +18,7 @@ Example:
 3. Input: s = "(]{)", Output: false
 4. Input: s = "[]())", Output: false
 
-### Part 2. (30 points)
+### Part 2. (60 points)
 
 Your goal in this part will be to build an AI that can play Minesweeper.
 
@@ -92,7 +92,7 @@ In the MinesweeperAI class, complete the implementations of add_knowledge, make_
 * When you run your AI (as by clicking “AI Move”), note that it will not always win! There will be some cases where the AI must guess, because it lacks sufficient information to make a safe move. This is to be expected. runner.py will print whether the AI is making a move it believes to be safe or whether it is making a random move.
 
 
-### Part 3. (1 point) Do not complete until you are mostly finsihed with the assignment.
+### Part 3. (2 point) Do not complete until you are mostly finsihed with the assignment.
 
 Add a text file to the HW1 folder called “feedback.txt” and answer the following:
 
