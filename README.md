@@ -1,9 +1,9 @@
 ## HW2 Due February 3rd, 2023
 ### Part 0. (1 point) Complete this before changing any files.
 
-1. Create a branch off of your Artificial-Inteligence-Spring-2023 repository on github called “HW2”, do all of your work for this homework in the HW2 branch.
-2. Download a zip of the HW2 repository. (https://github.com/andrewboes/HW2)
-3. Upload it to a folder called HW2 in your repository.
+1. Download a zip of the HW2 repository. (https://github.com/andrewboes/HW2)
+2. Upload it to a folder called HW2 in your Artificial-Inteligence-Spring-2023 repository (don't branch first).
+3. Create a branch off of your Artificial-Inteligence-Spring-2023 repository on github called “HW2”, do all of your work for this homework in the HW2 branch.
 
 ### Part 1. (10 points)
 
