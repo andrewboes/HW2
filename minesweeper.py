@@ -6,6 +6,7 @@ class Minesweeper():
     """
     Minesweeper game representation
     """
+    #Add more comments for checkin
 
     def __init__(self, height=8, width=8, mines=8):
 
