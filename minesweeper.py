@@ -126,7 +126,8 @@ class Sentence():
         Updates internal knowledge representation given the fact that
         a cell is known to be safe.
         """
-        raise NotImplementedError
+        if cell in self.cells:
+            self.cells.remove(cell)
 
 
 class MinesweeperAI():
@@ -183,6 +184,64 @@ class MinesweeperAI():
             5) add any new sentences to the AI's knowledge base
                if they can be inferred from existing knowledge
         """
+
+        # From (1) above: What set should 'cell' be added to complete this?
+
+        # From (2) above: Why can we assume the cell is safe? What set should 'cell' be added to complete this?
+
+        # From (3) above: To do this, find undermined cells around 'cell' and create (a) sentence(s) based on what you've found.
+        # Here is some more things to think about when determining how to create sentences
+
+        """
+        Consider this board: 
+
+        A   B   C
+        
+        D   1   E
+
+        F   G   H        
+        
+        There are a few different ways to represent this using propsitional logic. I suggest creating sentences that would represent this as:
+
+        {A, B, C, D, E, F, G, H} = 1
+
+        So find all the cells:
+        
+        neighboring_cells = set()
+        
+        The create the sentence:
+
+        sentence = new Sentence(neighboring_cells, 1)
+
+        Consider the three following boards. How would create sentence(s) for them?
+
+        A   B   C
+        
+        D   E   F
+
+        0   G   H        
+       
+       ----------------------
+
+        A   B   C
+        
+        D   E   F
+
+        G   H   3
+
+        ----------------------
+
+        1   1   1
+        
+        A   B   C
+        
+        D   2   E
+
+
+        We'll go over this on Monday
+        """
+
+        
         raise NotImplementedError
 
     def make_safe_move(self):
